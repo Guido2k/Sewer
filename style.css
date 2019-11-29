@@ -1,0 +1,164 @@
+.bod {
+    background-image: url("./img/sewer4g.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.bgchange {
+    background-image: url("./img/sewercover4.jpg");
+
+}
+
+.bgaction {
+    background-image: url("./img/sewer4g.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;                       /*  */
+    overflow: hidden;
+    text-align: center;
+}
+
+.hide {
+    display:none;
+}
+.car {
+    background-image: url("./img/jake2.png");
+    position:absolute;
+    bottom: 300px;
+    margin: auto;
+    left: 200px;
+    width: 100px;
+    height: 134px;
+}    
+
+.rotate {
+    animation: rotation 2s infinite linear;
+    
+}
+
+@keyframes rotation {
+    from {transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+
+    }
+}
+
+
+.enemy {
+    background-image: url("./img/tp2.png");
+    position:absolute;
+    bottom: 300px;
+    margin: auto;
+    left: 200px;
+    width: 100px;
+    height: 85px;
+}    
+
+.enemy2 {
+    background-image: url("./img/fish4.png");
+    position: absolute;
+    bottom: 300px;
+    margin:auto;
+    left: 200px;
+    width: 115px;
+    height: 100px;
+
+}
+
+.enemy3 {
+    background-image: url("./img/beaver.png");
+    position:absolute;
+    bottom: 300px;
+    margin: auto;
+    left: 200px;
+    width: 115px;
+    height: 115px;
+}
+
+.enemy4 {
+    background-image: url("./img/poop4.png");
+    position:absolute;
+    bottom: 300px;
+    margin: auto;
+    left: 200px;
+    width: 111px;
+    height: 103px;
+}
+
+  .gameArea{
+    background-image: url("./img/water3.png");
+    width: 500px;
+    height: 93vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    top: 6vh;
+    
+    
+
+}  
+
+.wave {
+    position: absolute;
+    height: 75px;
+    width: 425px;
+    margin-left: 32px;
+    background-image: url("./img/wave8.png");
+}
+
+.score, .level {
+    background:white;
+    color:black;
+    text-shadow: 1px 1px grey;
+    height: 50px;
+    width: 280px;
+    margin: auto;
+    padding-top: 2px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}   
+
+.container {
+    text-align: center;
+}
+
+.startScreen {
+    height: 100vh;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 60px;
+    text-shadow: 3px 3px grey;
+    margin-top: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+    
+}
+
+.startText {
+    color: white;
+    background-color:  rgba(89, 104, 94, 0.1);
+    text-shadow: 2.5px 2.5px red;
+    
+
+}
+
+.butt {
+    background-color: rgba(36, 88, 56, 0.5);
+    color: white;
+    text-shadow: 1px 1px grey;
+    font-size: 15px;
+    font-family: tahoma;
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
