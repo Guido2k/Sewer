@@ -134,7 +134,7 @@ function playGame() {
             if(keys.ArrowUp && player.y > road.top){ player.y -= player.speed;}
             if(keys.ArrowDown && player.y < road.bottom){ player.y += player.speed;}
             if(keys.ArrowLeft && player.x > 0){ player.x -= player.speed;}
-            if(keys.ArrowRight && player.x < (road.x -40)){ player.x += player.speed;}// 
+            if(keys.ArrowRight && player.x < (road.width -100)){ player.x += player.speed;}// change x to "width"
             
             // -40 for 15inch laptop
             // -120 for 17inch laptop
